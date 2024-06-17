@@ -1,0 +1,45 @@
+{
+  "routes": {
+    "home": "Accueil",
+    "campaigns": "Campagne",
+    "mission": "Mission",
+    "composers": "Compositeurs",
+    "shop": "Boutique",
+    "contact": "Contact"
+  },
+  "terms": {
+    "campaigns": "{n, plural, one {campagne} other {campagnes}}",
+    "contributors": "{n, plural, one {collaborateur} other {collaboraterus}}",
+    "composers": "{n, plural, one {compositeur} other {compositeurs}}",
+    "arrangers": "{n, plural, one {arrangeur} other {arrangeurs}}",
+    "lyricists": "{n, plural, one {parolier} other {paroliers}}",
+    "works": "{n, plural, one {œuvre} other {œuvres}}",
+    "goal": "{n, plural, one {objectif} other {objectifs}}"
+  },
+  "descriptions": {
+    "users list": "Lista de usuarios que han participado en la campaña"
+  },
+  "numerable": {
+    "showing start": "Mostrant {n} de {t}",
+    "of": "de ",
+    "of items": "de {n}",
+    "items": "{n, plural, =0 {Sans élements} one {# élement} other {# élements}}",
+    "campaigns": "{n, plural, =0 {Sans campagnes} one {# campagne} other {# campagnes}}",
+    "contributors": "{n, plural, =0 {Sans collaborateurs} one {# collaborateur} other {# collaborateurs}}",
+    "composers": "{n, plural, =0 {Sans compositeurs} one {# compositeur} other {# compositeurs}}",
+    "works": "{n, plural, =0 {Sans œuvres} one {# œuvre} other {# œuvres}}"
+  },
+  "fields": {
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "contribution": "Contribution",
+    "date": "Date",
+    "no duration": "Sans durée"
+  },
+  "actions": {
+    "go back home": "Retour à la page d’accueil",
+    "search": "Chercher…",
+    "send": "Envoyer"
+  }
+}

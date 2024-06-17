@@ -1,0 +1,45 @@
+{
+  "routes": {
+    "home": "Home",
+    "campaigns": "Campaigns",
+    "mission": "Mission",
+    "composers": "Composers",
+    "shop": "Shop",
+    "contact": "Contact"
+  },
+  "terms": {
+    "campaigns": "{n, plural, one {campaign} other {campaigns}}",
+    "contributors": "{n, plural, one {contributor} other {contributors}}",
+    "composers": "{n, plural, one {composer} other {composers}}",
+    "arrangers": "{n, plural, one {arranger} other {arrangers}}",
+    "lyricists": "{n, plural, one {lyricist} other {lyricists}}",
+    "works": "{n, plural, one {work} other {works}}",
+    "goal": "{n, plural, one {goal} other {goals}}"
+  },
+  "descriptions": {
+    "users list": "List of users who participated in the campaign"
+  },
+  "numerable": {
+    "showing start": "Showing {n} of {t}",
+    "of": "of ",
+    "of items": "of {n}",
+    "items": "{n, plural, =0 {No items} one {# item} other {# items}}",
+    "campaigns": "{n, plural, =0 {No campaigns} one {# campaign} other {# campaigns}}",
+    "contributors": "{n, plural, =0 {No contributors} one {# contributor} other {# contributors}}",
+    "composers": "{n, plural, =0 {No composers} one {# composer} other {# composers}}",
+    "works": "{n, plural, =0 {No works} one {# work} other {# works}}"
+  },
+  "fields": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "contribution": "Contribution",
+    "date": "Date",
+    "no duration": "No duration"
+  },
+  "actions": {
+    "go back home": "Go back home",
+    "search": "Search…",
+    "send": "Send"
+  }
+}

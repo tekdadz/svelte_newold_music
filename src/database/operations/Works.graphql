@@ -1,0 +1,54 @@
+query WorksList {
+  works {
+    id
+    title
+    duration
+    work_roled_composers {
+      roled_composer {
+        composer {
+          id
+          name
+          surname
+        }
+        composer_role {
+          role
+        }
+      }
+    }
+    work_movements_aggregate {
+      aggregate {
+        count
+      }
+    }
+  }
+}
+
+query WorkInfo($id: Int!) {
+  works_by_pk(id: $id) {
+    id
+    title
+    duration
+    work_movements {
+      order
+      title
+      duration
+    }
+    work_roled_composers {
+      roled_composer {
+        composer {
+          id
+          name
+          surname
+        }
+        composer_role {
+          role
+        }
+      }
+    }
+    campaign {
+      id
+      title
+      description
+    }
+  }
+}

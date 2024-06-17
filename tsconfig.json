@@ -1,0 +1,39 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": [
+      "esnext",
+      "dom",
+      "webworker"
+    ],
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "database/*": ["src/database/*"],
+      "modules/*": ["src/modules/*"],
+      "public/*": ["src/public/*"],
+      "routes/*": ["src/routes/*"],
+      "services/*": ["src/services/*"],
+      "utils/*": ["src/utils/*"]
+    },
+    "types": [
+      "svelte",
+      "node",
+      "@sapper"
+    ],
+    "typeRoots": [
+      "typings"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "src/node_modules"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "__sapper__/*",
+    "public/*"
+  ]
+}

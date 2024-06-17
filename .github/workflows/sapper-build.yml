@@ -1,0 +1,17 @@
+name: Build Sapper
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Build Sapper
+        uses: truewebartisans/actions-sapper@1.1.0
+        with:
+          args: "--legacy"
